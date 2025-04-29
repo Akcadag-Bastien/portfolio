@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>AKCADAG BASTIEN | Portfolio</title>
+  
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
@@ -23,16 +26,40 @@
     </div>
   </header>
 
-  <section class="hero-image">
-    <img src="your-hero-image.jpg" alt="Hero Image" />
+  <section class="hero-video">
+    
+    <video autoplay muted loop playsinline>
+
+      <source src="video.mp4" type="video/mp4">
+
+      Votre navigateur ne supporte pas les vidéos HTML5.
+
+    </video>
+  
+    <div class="skip-overlay">
+
+      <a href="#hero" class="skip-button">
+
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48" fill="white">
+          <path d="M480 710 276 506l42-42 162 162 162-162 42 42-204 204Z"/>
+        </svg>
+
+      </a>
+
+    </div>
+    
   </section>
 
-  <section class="hero">
-    <h1>Bienvenue sur mon Portfolio</h1>
-    <p>Créatif & Développeur</p>
-    <div class="buttons">
-      <button id="btn2">Créa</button>
-      <button id="btn1">Dev</button>
+  <section id="hero">
+    <canvas id="pixel-gradient"></canvas>
+  
+    <div class="hero-content">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <p>Créatif & Développeur</p>
+      <div class="buttons">
+        <button id="btn2">Créa</button>
+        <button id="btn1">Dev</button>
+      </div>
     </div>
   </section>
 
