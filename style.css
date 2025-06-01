@@ -250,3 +250,9 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+a {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+}
