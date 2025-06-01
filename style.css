@@ -221,7 +221,7 @@ html {
 
 #card1
 {
-  background-image: url("portfolio/Bird.png");
+  background-image: url("portfolio/Bird.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -229,7 +229,7 @@ html {
 
 #card2
 {
-  background-image: url("portfolio/InJustice.png");
+  background-image: url("portfolio/InJustice.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,7 +237,7 @@ html {
 
 #card3
 {
-  background-image: url("portfolio/Crustacean.png");
+  background-image: url("portfolio/Crustacean.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
