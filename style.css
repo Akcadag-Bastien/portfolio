@@ -255,4 +255,5 @@ a {
     color: black;
     -webkit-text-stroke: 1px white;
     text-stroke: 1px white;
+    text-decoration: none;
 }
