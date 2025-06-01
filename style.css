@@ -222,19 +222,31 @@ html {
 #card1
 {
   background-image: url("portfolio/bird.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #card2
 {
   background-image: url("portfolio/InJustice.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #card3
 {
   background-image: url("portfolio/crustacean.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #card4
 {
   background-image: url("portfolio/Logo_Spikorp.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
