@@ -252,9 +252,16 @@ html {
 }
 
 a {
-    font-size: 15px !important;
+    a {
     color: black;
-    -webkit-text-stroke: 1px white;
-    text-stroke: 1px white;
+    text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,
+    -1px 0 0 white,
+    1px 0 0 white,
+    0 -1px 0 white,
+    0 1px 0 white;
     text-decoration: none;
 }
