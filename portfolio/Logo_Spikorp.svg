@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-300 0 200 400">
+  
+  <defs>
+    
+    <style>
+      .cls-1 {
+        fill: #2a4b9b;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: #282e68;
+      }
+
+      .cls-4 {
+        fill: #fcbf0b;
+      }
+
+      .cls-5 {
+        fill: #f3e600;
+      }
+    </style>
+  
+  </defs>
+
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709  -->
+  
+  <g style="display: block; transform: scale(-1,1)">
+    <g id="Circles">
+
+      <!-- Sides -->
+
+      <g>
+
+        <!-- Blue side -->
+
+        <g>
+        <path class="cls-1" d="M150,200h100c0,27.62-22.38,50-50,50-27.62,0-50-22.39-50-50Z"/>
+        
+        <animateTransform
+        id="SlideIn1"
+        attributeName="transform"
+        type="translate"
+        from="100 0"
+        to="0 0"
+        begin="0s"
+        dur="0.45s"
+        fill="freeze"
+        keyTimes="0; 0.2; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 1 1; 0.42 0 0.58 1; 0.42 0 1 1"
+        values="-40; -50; 20; 0" 
+        />
+        
+        </g>
+
+        <!-- Yellow side -->
+        <g>
+        <path class="cls-5" d="M200,150c27.62,0,50,22.38,50,50h-100c0-27.62,22.39-50,50-50Z"/>
+        
+        <animateTransform
+        id="SlideIn2"
+        attributeName="transform"
+        type="translate"
+        from="100 0"
+        to="0 0"
+        begin="0s"
+        dur="0.45s"
+        fill="freeze"
+        keyTimes="0; 0.2; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 1 1; 0.42 0 0.58 1; 0.42 0 1 1"
+        values="40; 50; -20; 0" 
+        />
+        
+        </g>
+
+        <animateTransform
+        id="rotateSides"
+        attributeName="transform"
+        type="rotate"
+        from="0 200 200"
+        to="90 200 200"
+        begin="SlideIn1.end+0.1s"
+        dur="0.5s"
+        fill="freeze"
+        calcMode="spline"
+        keyTimes="0; 0.3; 1"
+        keySplines="0.3 0.1 1.0 1.0; 0.25 0.7 0.5 1"
+        values="0 200 200; 110 200 200; 90 200 200" />
+
+      </g>
+
+      <g>
+
+        <!-- Blue eye -->
+
+        <path opacity="0" class="cls-1" d="M217.89,193.94l17.68-17.68c4.88,4.88,4.88,12.8,0,17.68-4.88,4.88-12.8,4.88-17.68,0Z">
+          
+          <animateTransform
+          id="SlideEye1"
+          attributeName="transform"
+          type="translate"
+          from="0 50"
+          to="0 0"
+          begin="rotateSides.begin+0.3s"
+          dur="0.5s"
+          fill="freeze"
+          keyTimes="0; 0.5; 1"
+          calcMode="spline" 
+          keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+          values="0, 20; 0, -10; 0, 0" 
+          />
+
+          <animate id="fadeInEye1" attributeName="opacity" from="0" to="1" begin="rotateSides.begin+0.3s" dur="0.2s" fill="freeze" />
+
+        </path>
+
+        <!-- Yellow eye -->
+        
+        <path opacity="0" class="cls-5" d="M164.43,193.94c-4.88-4.88-4.88-12.8,0-17.68l17.68,17.68c-4.88,4.88-12.8,4.88-17.68,0Z">
+
+          <animateTransform
+          id="SlideEye2"
+          attributeName="transform"
+          type="translate"
+          from="0 50"
+          to="0 0"
+          begin="rotateSides.begin+0.3s"
+          dur="0.5s"
+          fill="freeze"
+          keyTimes="0; 0.5; 1"
+          calcMode="spline" 
+          keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+          values="0, 20; 0, -10; 0, 0" 
+          />
+
+          <animate id="fadeInEye2" attributeName="opacity" from="0" to="1" begin="rotateSides.begin+0.3s" dur="0.2s" fill="freeze" />
+
+        </path>
+
+      </g>
+    </g>
+    <g id="Calque_1">
+
+      <!-- Blue spikes -->
+
+      <g>
+
+        <!-- Spike 1 -->
+
+        <polygon opacity="0" class="cls-3" points="139.38 135.11 151.62 163.56 167.84 147.34 139.38 135.11">
+
+        <animateTransform
+        id="SlideSpike1"
+        attributeName="transform"
+        type="translate"
+        from="50 50"
+        to="0 0"
+        begin="rotateSides.end-0.3"
+        dur="0.5s"
+        fill="freeze"
+        keyTimes="0; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+        values="50, 50; -20, -20; 0, 0" 
+        />
+
+        <animate id="fadeInSpike1" attributeName="opacity" from="0" to="1" begin="SlideSpike1.begin+0.1s" dur="0.2s" fill="freeze" />
+
+        </polygon>
+
+        <!-- Spike 2 -->
+
+        <polygon opacity="0" class="cls-3" points="112.23 199.92 141 211.39 141 188.45 112.23 199.92">
+
+        <animateTransform
+        id="SlideSpike2"
+        attributeName="transform"
+        type="translate"
+        from="50 0"
+        to="0 0"
+        begin="rotateSides.end-0.25"
+        dur="0.5s"
+        fill="freeze"
+        keyTimes="0; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+        values="50, 0; -20, 0; 0, 0" 
+        />
+
+        <animate id="fadeInSpike2" attributeName="opacity" from="0" to="1" begin="SlideSpike2.begin+0.1s" dur="0.2s" fill="freeze" />
+
+        </polygon>
+
+        <!-- Spike 3 -->
+        
+        <polygon opacity="0" class="cls-3" points="136.26 260.28 164.72 248.05 148.49 231.82 136.26 260.28">
+
+        <animateTransform
+        id="SlideSpike3"
+        attributeName="transform"
+        type="translate"
+        from="50 -50"
+        to="0 0"
+        begin="rotateSides.end-0.2"
+        dur="0.5s"
+        fill="freeze"
+        keyTimes="0; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+        values="50, -50; -20, 20; 0, 0" 
+        />
+
+        <animate id="fadeInSpike3" attributeName="opacity" from="0" to="1" begin="SlideSpike3.begin+0.1s" dur="0.2s" fill="freeze" />
+
+        </polygon>
+
+      </g>
+
+      <!-- Yellow spikes -->
+
+      <g>
+
+        <!-- Spike 4 -->
+
+        <polygon opacity="0" class="cls-4" points="260.77 135.77 248.54 164.23 232.31 148.01 260.77 135.77">
+        
+        <animateTransform
+        id="SlideSpike4"
+        attributeName="transform"
+        type="translate"
+        from="-50 50"
+        to="0 0"
+        begin="rotateSides.end-0.15"
+        dur="0.5s"
+        fill="freeze"
+        keyTimes="0; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+        values="-50, 50; 20, -20; 0, 0" 
+        />
+
+        <animate id="fadeInSpike4" attributeName="opacity" from="0" to="1" begin="SlideSpike4.begin+0.1s" dur="0.2s" fill="freeze" />
+
+        </polygon>
+
+        <!-- Spike 5 -->
+        
+        <polygon opacity="0" class="cls-4" points="288.59 200 259.82 211.47 259.82 188.53 288.59 200">
+        
+        <animateTransform
+        id="SlideSpike5"
+        attributeName="transform"
+        type="translate"
+        from="-50 0"
+        to="0 0"
+        begin="rotateSides.end-0.1"
+        dur="0.5s"
+        fill="freeze"
+        keyTimes="0; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+        values="-50, 0; 20, 0; 0, 0" 
+        />
+
+        <animate id="fadeInSpike5" attributeName="opacity" from="0" to="1" begin="SlideSpike5.begin+0.1s" dur="0.2s" fill="freeze" />
+
+        </polygon>
+
+        <!-- Spike 6 -->
+        
+        <polygon opacity="0" class="cls-4" points="261.44 260.95 232.98 248.71 249.2 232.49 261.44 260.95">
+      
+        <animateTransform
+        id="SlideSpike6"
+        attributeName="transform"
+        type="translate"
+        from="-50 -50"
+        to="0 0"
+        begin="rotateSides.end-0.05"
+        dur="0.5s"
+        fill="freeze"
+        keyTimes="0; 0.5; 1"
+        calcMode="spline" 
+        keySplines="0.42 0 0.58 1; 0.42 0 1 1"
+        values="-50, -50; 20, 20; 0, 0" 
+        />
+
+        <animate id="fadeInSpike6" attributeName="opacity" from="0" to="1" begin="SlideSpike6.begin+0.1s" dur="0.2s" fill="freeze" />
+
+        </polygon>
+      
+      </g>
+    </g>
+  </g>
+</svg>
